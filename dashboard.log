@@ -1,0 +1,36 @@
+2026-10-08 15:59:32,164 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-08 16:10:41,782 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-08 16:18:00,612 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-08 16:37:09,013 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-08 16:40:15,407 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-08 16:41:56,377 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-08 16:42:56,040 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-08 16:43:56,740 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-08 16:45:02,078 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-08 16:45:06,336 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-08 16:45:06,834 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-08 16:45:11,437 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-08 16:45:11,879 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-08 16:53:06,723 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-08 16:55:42,106 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-08 16:56:56,273 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-08 16:58:52,599 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-08 17:07:46,865 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-08 17:13:18,582 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-09 10:22:09,963 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-09 10:22:41,513 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-09 10:22:47,131 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-09 10:22:55,683 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-09 10:23:06,144 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-09 10:23:13,191 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-09 10:23:18,726 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-09 10:59:57,625 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-09 11:01:33,514 | INFO | Loaded dataset: data/activity_logs.csv | rows=25
+2026-10-09 11:01:50,067 | ERROR | Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
